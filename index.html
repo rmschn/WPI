@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Image Page</title>
+    <style>
+        /* Global Styles */
+        body {
+            background-color: #000; /* Black background */
+            color: #fff; /* White text */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Take up the full height of the viewport */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        /* Image Styles */
+        .centered-image {
+            max-width: 50%; /* Set the maximum width of the image */
+            height: auto; /* Maintain the aspect ratio of the image */
+            margin: 0 auto; /* Center the image horizontally */
+        }
+        
+        /* Copyright Styles */
+        .copyright {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <img src="WPILogoWhiteComingSoon.png" alt="White Post Industries Coming Soon" class="centered-image">
+    <div class="copyright">&copy; 2026 White Post Industries LLC</div>
+</body>
+</html>
